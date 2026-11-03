@@ -1,0 +1,11 @@
+# dataset folder or symlink to it ("data/" would not match a symlink)
+data
+outputs/features/
+outputs/models/
+*.log
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+outputs/splits/texts/
+outputs/splits/texts_clean.json

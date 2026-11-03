@@ -1,0 +1,19 @@
+{
+ "tfidf_variant": "raw",
+ "distil_variant": "detok_num",
+ "distil_pool": "mean",
+ "clip_img_prep": "multi",
+ "rule": "keep the reference unless validation macro-F1 gain > max(0.005, 2 x seed s.d.)",
+ "distil_len": 256,
+ "head": {
+  "hidden": 512,
+  "dropout": 0.5,
+  "lr": 0.0003
+ },
+ "modality_dropout": 0.5,
+ "xattn": {
+  "layers": 2,
+  "lr": 0.0001,
+  "d": 256
+ }
+}

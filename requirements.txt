@@ -1,0 +1,17 @@
+# Python 3.13. Upper bounds stop at the next major version; the tested version is in each comment.
+numpy>=2.0,<3             # 2.5.3; np.bitwise_count used for dHash distances
+pandas>=2.2,<4            # 3.0.6
+scikit-learn>=1.5,<2      # 1.9.1
+scipy>=1.13,<2            # 1.18.1
+iterative-stratification>=0.1.9,<0.2   # 0.1.9
+torch>=2.4,<3             # 2.14.1
+torchvision>=0.19,<1      # 0.29.1
+timm>=1.0,<2              # 1.0.30
+transformers>=4.45,<6     # 5.19.0
+open_clip_torch>=2.26,<4  # 3.3.0; CLIP reference only
+matplotlib>=3.9,<4        # 3.11.2
+seaborn>=0.13,<0.14       # 0.13.2
+jupyter
+nbformat
+nbconvert
+kaggle                    # dataset download

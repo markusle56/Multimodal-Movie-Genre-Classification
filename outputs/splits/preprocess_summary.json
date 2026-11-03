@@ -1,0 +1,132 @@
+{
+ "n_rows": 25959,
+ "split_source": "regenerated (grouped iterative stratification, seed 42)",
+ "duplicate_table_A3": {
+  "plot_summary": {
+   "groups": 11,
+   "rows": 25,
+   "redundant_rows": 14,
+   "groups_with_differing_labels": 4
+  },
+  "poster_image": {
+   "groups": 63,
+   "rows": 151,
+   "redundant_rows": 88,
+   "groups_with_differing_labels": 39
+  },
+  "plot_and_poster": {
+   "groups": 6,
+   "rows": 12,
+   "redundant_rows": 6,
+   "groups_with_differing_labels": 0
+  }
+ },
+ "exact_duplicate_poster_groups": 63,
+ "rows_in_exact_duplicate_posters": 151,
+ "exact_duplicate_plot_groups": 11,
+ "rows_in_exact_duplicate_plots": 25,
+ "near_duplicate_image_pairs_dhash": 148,
+ "duplicate_groups_size_gt1": 79,
+ "rows_in_duplicate_groups": 196,
+ "fragments_lt_min_words": 144,
+ "label_conflict_rows_excluded": 11,
+ "duplicate_copy_rows_excluded": 5,
+ "grayscale_posters": 1239,
+ "split_sizes": {
+  "excluded": 16,
+  "train": 15567,
+  "val": 2605,
+  "test": 7771
+ },
+ "split_shares": {
+  "excluded": 0.0006,
+  "train": 0.5997,
+  "val": 0.1004,
+  "test": 0.2994
+ },
+ "groups_crossing_splits": 0,
+ "genre_prevalence_by_split": {
+  "train": [
+   0.5381,
+   0.3308,
+   0.2065,
+   0.2,
+   0.1478,
+   0.137,
+   0.1043,
+   0.1041,
+   0.0798,
+   0.0791,
+   0.0766,
+   0.0745,
+   0.0641,
+   0.0516,
+   0.0514,
+   0.0441,
+   0.0403,
+   0.0384,
+   0.0324,
+   0.0272,
+   0.0245,
+   0.0183,
+   0.013
+  ],
+  "val": [
+   0.5374,
+   0.3294,
+   0.2069,
+   0.2008,
+   0.1486,
+   0.1359,
+   0.1036,
+   0.104,
+   0.0806,
+   0.0795,
+   0.0775,
+   0.0741,
+   0.0641,
+   0.0514,
+   0.0511,
+   0.0438,
+   0.0399,
+   0.0376,
+   0.0322,
+   0.0269,
+   0.0242,
+   0.0169,
+   0.0134
+  ],
+  "test": [
+   0.5385,
+   0.3317,
+   0.2068,
+   0.2002,
+   0.148,
+   0.1368,
+   0.1046,
+   0.1044,
+   0.0804,
+   0.0794,
+   0.0767,
+   0.0745,
+   0.0643,
+   0.0517,
+   0.0517,
+   0.0441,
+   0.0403,
+   0.0386,
+   0.0324,
+   0.0273,
+   0.0244,
+   0.0181,
+   0.013
+  ]
+ },
+ "min_positives_per_genre_by_split": {
+  "train": 202,
+  "val": 35,
+  "test": 101
+ },
+ "n_redundant_domain_words": 79,
+ "seconds": 72.1
+}

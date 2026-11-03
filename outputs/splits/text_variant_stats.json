@@ -1,0 +1,52 @@
+{
+ "raw": {
+  "mean_words": 124.41276628529604,
+  "vocab_size": 69921,
+  "mean_distilbert_tokens": 135.2856427443276,
+  "median_distilbert_tokens": 116.0,
+  "share_truncated_at_256": 0.10277745675873493,
+  "share_truncated_at_512": 0.0047382410724604185,
+  "share_with_N_or_mask": 0.2804807581185716,
+  "example": "sardonic detective shane , thrown out of one town for bringing trouble , heads for home and his ex - partner ' s detective agency . the business is in a sad way , and shane , who has had the forethought to provide himsel"
+ },
+ "detok": {
+  "mean_words": 106.46897029931816,
+  "vocab_size": 89443,
+  "mean_distilbert_tokens": 135.2777456758735,
+  "median_distilbert_tokens": 116.0,
+  "share_truncated_at_256": 0.10273893447359297,
+  "share_truncated_at_512": 0.0047382410724604185,
+  "share_with_N_or_mask": 0.17731807850841713,
+  "example": "sardonic detective shane, thrown out of one town for bringing trouble, heads for home and his ex-partner's detective agency. the business is in a sad way, and shane, who has had the forethought to provide himself with a "
+ },
+ "detok_num": {
+  "mean_words": 106.42844485534881,
+  "vocab_size": 89449,
+  "mean_distilbert_tokens": 135.24438537694056,
+  "median_distilbert_tokens": 116.0,
+  "share_truncated_at_256": 0.10270041218845102,
+  "share_truncated_at_512": 0.004699718787318463,
+  "share_with_N_or_mask": 0.2779382872992026,
+  "example": "sardonic detective shane, thrown out of one town for bringing trouble, heads for home and his ex-partner's detective agency. the business is in a sad way, and shane, who has had the forethought to provide himself with a "
+ },
+ "detok_num_stop": {
+  "mean_words": 55.382911514311026,
+  "vocab_size": 89153,
+  "mean_distilbert_tokens": 84.17215609229939,
+  "median_distilbert_tokens": 72.0,
+  "share_truncated_at_256": 0.015447436341923804,
+  "share_truncated_at_512": 0.0005393119919873646,
+  "share_with_N_or_mask": 0.2779382872992026,
+  "example": "sardonic detective shane, thrown town bringing trouble, heads home ex-partner's detective agency. business sad way, shane, forethought provide #-dollar commission old lady train, welcomed open arms. pretty valerie purvis"
+ },
+ "detok_num_stop_domain": {
+  "mean_words": 54.11953465079549,
+  "vocab_size": 89074,
+  "mean_distilbert_tokens": 82.90458029970338,
+  "median_distilbert_tokens": 71.0,
+  "share_truncated_at_256": 0.013868022651103663,
+  "share_truncated_at_512": 0.0005393119919873646,
+  "share_with_N_or_mask": 0.2779382872992026,
+  "example": "sardonic detective shane, thrown town bringing trouble, heads home ex-partner's detective agency. business sad way, shane, forethought provide #-dollar commission old lady train, welcomed arms. pretty valerie purvis walk"
+ }
+}
