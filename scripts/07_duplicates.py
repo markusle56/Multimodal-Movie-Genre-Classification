@@ -1,6 +1,6 @@
 """Step 7 - near-duplicate poster analysis: what dHash finds, why the threshold is 4, and what leakage it prevents.
 
-Outputs: outputs/results/duplicates.json, outputs/figures/{dup_distance,dup_examples,dup_clip_audit}.pdf|png
+Outputs: outputs/results/duplicates.json, outputs/figures/{dup_distance,dup_examples,dup_clip_audit}.png
 """
 import hashlib
 import json
@@ -181,7 +181,6 @@ ax[1].set_ylim(0, 1.05)
 ax[1].legend(fontsize=8, loc="center right")
 ax[1].set_title("(b) Visual and label agreement")
 fig.tight_layout()
-fig.savefig(FIG / "dup_distance.pdf")
 fig.savefig(FIG / "dup_distance.png")
 plt.close(fig)
 
@@ -202,7 +201,6 @@ for k, (lab, r) in enumerate(show):
     axes[0, k].text(0.5, 1.18, f"{lab}\nCLIP cos {r.clip_cos:.2f}", transform=axes[0, k].transAxes, ha="center",
                     fontsize=8.5, weight="bold")
 fig.subplots_adjust(hspace=0.15, top=0.86)
-fig.savefig(FIG / "dup_examples.pdf")
 fig.savefig(FIG / "dup_examples.png")
 plt.close(fig)
 q = C[(C.cos >= 0.925) & ~C.byte & ~C.grouped].sort_values("cos", ascending=False).head(8)
@@ -213,7 +211,6 @@ for k, (_, r) in enumerate(q.iterrows()):
         axes[row, k].axis("off")
     axes[0, k].set_title(f"CLIP cos {r.cos:.3f}" + ("\ncrosses split" if r.cross else "\nsame split"), fontsize=8)
 fig.subplots_adjust(hspace=0.08, wspace=0.05, top=0.9)
-fig.savefig(FIG / "dup_clip_audit.pdf")
 fig.savefig(FIG / "dup_clip_audit.png")
 plt.close(fig)
 print("figures written")
